@@ -113,7 +113,7 @@
             <div class="form-group col-md-4 mb-4 mb-lg-0">
               <label for="Hours" class="label">Number of Hours</label>
               <div class="form-field-icon-wrap">
-                <select type="text" name="persons" id="persons" class="form-control">
+                <select type="text" name="persons" id="hours" class="form-control">
                   <option value="">1 Hour</option>
                   <option value="">2 Hours</option>
                   <option value="">3 Hours</option>
@@ -171,7 +171,18 @@
     </div>
   </div>
 </section>
-
+<script>
+  function gotowhatsapp(){
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var phone = document.getElementById("phone").value;
+  var date = document.getElementById("datepicker").value;
+  var time = document.getElementById("timepicker").value;
+  var hour = document.getElementById("hours").value;
+  var url = "https://api.whatsapp.com/send?phone=918925279977&text=" + "Name : "+name + "%0a" +"Email : "+email+ "%0a" +"Phone no : "+phone + "%0a" + "Date : "+date + "%0a" + "Time : "+time + "%0a" 
+  window.open(url, '_blank').focus();
+}
+</script>
 
 <!--Footer start -->
 <footer class="section footer">

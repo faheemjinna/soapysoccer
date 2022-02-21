@@ -282,21 +282,5 @@
 <!-- Main Script -->
 <script src="js/contact.js"></script>
 <script src="js/script.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-  function sendmail(){
-    Email.send({
-    Host : "smtp.gmail.com",
-    Username : "nexusfaheem@gmail.com",
-    Password : "619rey123",
-    To : 'faheemjinna100@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Turf Booking",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-  }
-</script>
 
 </html>

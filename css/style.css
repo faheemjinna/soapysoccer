@@ -592,14 +592,65 @@ ul.dropdown-menu > li > a:hover,
   }
 }
 
-.section-header {
-  background: url("../images/bg/bg-2.jpg") 50% 50% no-repeat;
+.section-header-about {
+  background: url("../images/bg/bg-4.JPG") 50% 50% no-repeat;
   background-size: cover;
   padding: calc(70px + 9rem) 0 9rem;
   position: relative;
 }
 
-.section-header:before {
+.section-header-about:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: .5;
+  background-color: #000;
+}
+.section-header-gallery {
+  background: url("../images/bg/bg-3.JPG") 50% 50% no-repeat;
+  background-size: cover;
+  padding: calc(70px + 9rem) 0 9rem;
+  position: relative;
+}
+
+.section-header-gallery:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: .5;
+  background-color: #000;
+}
+.section-header-reservation {
+  background: url("../images/bg/bg-1.png") 50% 50% no-repeat;
+  background-size: cover;
+  padding: calc(70px + 9rem) 0 9rem;
+  position: relative;
+}
+
+.section-header-reservation:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: .5;
+  background-color: #000;
+}
+.section-header-contact {
+  background: url("../images/bg/bg-2.png") 50% 50% no-repeat;
+  background-size: cover;
+  padding: calc(70px + 9rem) 0 9rem;
+  position: relative;
+}
+
+.section-header-contact:before {
   position: absolute;
   top: 0;
   right: 0;

@@ -411,7 +411,7 @@ a:hover {
 }
 
 .nav-top {
-  background: rgba(0, 0, 0, 0.9);
+  background: 3f80d2
 }
 
 ul.dropdown-menu {
@@ -554,25 +554,25 @@ ul.dropdown-menu > li > a:hover,
 
 @media (max-width: 575px) {
   #main-nav {
-    background: #111;
+    background: #3f80d2;
   }
 }
 
 @media (max-width: 400px) {
   #main-nav {
-    background: #111;
+    background: #3f80d2;
   }
 }
 
 @media (max-width: 767px) {
   #main-nav {
-    background: #111;
+    background: #3f80d2;
   }
 }
 
 @media (max-width: 991px) {
   #main-nav {
-    background: #111;
+    background: #3f80d2;
   }
 }
 
@@ -683,7 +683,7 @@ ul.dropdown-menu > li > a:hover,
   left: 0;
   right: 0;
   z-index: 99;
-  background: #111;
+  background: #3f80d2;
   transition: all 0.5s ease;
 }
 

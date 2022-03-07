@@ -127,6 +127,11 @@ h6, .h6 {
   color: #111;
   border-color: #fff;
 }
+.btn-white-blue {
+  background: #3f80d2;
+  color: #fff;
+  border-color: #3f80d2;
+}
 
 .btn-white:hover {
   border-color: #ffd600;
@@ -251,6 +256,9 @@ a:hover {
 .text-white-70 {
   color: rgba(255, 255, 255, 0.7);
 }
+.text-white-blue-70 {
+  color: #3f80d2;
+}
 
 .slide-bg-image {
   padding: 240px 0px 250px;
@@ -287,7 +295,7 @@ a:hover {
   top: 0px;
   width: 100%;
   height: 100%;
-  background: #111;
+  background: #f8d849;
   opacity: .55;
 }
 

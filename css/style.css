@@ -280,6 +280,7 @@ a:hover {
 }
 
 .overlay {
+  /* background: url(../images/bg/bubble.jpg.webp); */
   position: absolute;
   content: "";
   left: 0px;
@@ -593,7 +594,7 @@ ul.dropdown-menu > li > a:hover,
 }
 
 .section-header-about {
-  background: url("../images/bg/IMG_6125.JPG") 50% 50% no-repeat;
+  background: url("../images/bg/bg-4.JPG") 50% 50% no-repeat;
   background-size: cover;
   padding: calc(70px + 9rem) 0 9rem;
   position: relative;
@@ -767,7 +768,7 @@ ul.dropdown-menu > li > a:hover,
 }
 
 .cta {
-  background: url("../images/banner/cta-bg2.png") fixed 50% 50% no-repeat;
+  background: url("../images/bg/bubble.jpg.webp") fixed 50% 50% no-repeat;
   background-size: cover;
   position: relative;
 }

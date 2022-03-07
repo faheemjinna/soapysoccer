@@ -768,7 +768,6 @@ ul.dropdown-menu > li > a:hover,
 }
 
 .cta {
-  background: url("../images/bg/bubble.tiff") fixed 50% 50% no-repeat;
   background-size: cover;
   position: relative;
 }
